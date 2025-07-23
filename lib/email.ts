@@ -54,6 +54,7 @@ export async function sendContactEmail(data: EmailData) {
   return { success: true }
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export async function sendAutoReply(email: string, name: string) {
   // Send auto-reply to the person who submitted the form
   console.log(`Sending auto-reply to ${email}`)

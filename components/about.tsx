@@ -68,8 +68,8 @@ export function About() {
               <CardContent className="p-0">
                 <h3 className="font-semibold mb-3">Our Guarantee</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  We're so confident in our service that we offer a 30-day satisfaction guarantee. If you're not
-                  completely satisfied with our management in the first month, we'll work with you to make it right or
+                  We&apos;re so confident in our service that we offer a 30-day satisfaction guarantee. If you&apos;re not
+                  completely satisfied with our management in the first month, we&apos;ll work with you to make it right or
                   part ways amicably.
                 </p>
               </CardContent>

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 "use client"
 
 import type React from "react"
@@ -58,7 +59,7 @@ export function Contact() {
             <Card>
               <CardHeader>
                 <CardTitle>Send us a message</CardTitle>
-                <CardDescription>Fill out the form below and we'll get back to you within 24 hours.</CardDescription>
+                <CardDescription>Fill out the form below and we&apos;ll get back to you within 24 hours.</CardDescription>
               </CardHeader>
               <CardContent>
                 <form onSubmit={handleSubmit} className="space-y-6">
@@ -167,7 +168,7 @@ export function Contact() {
               </CardHeader>
               <CardContent>
                 <p className="text-sm">
-                  Need an urgent response? Call us directly or mention "URGENT" in your message subject.
+                  Need an urgent response? Call us directly or mention &quot;URGENT&quot; in your message subject.
                 </p>
               </CardContent>
             </Card>
